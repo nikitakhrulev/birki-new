@@ -1,0 +1,39 @@
+.reviews__list-item {
+    background-color: var(--review-background-color);
+    max-width: 33%;
+    height: auto;
+
+    padding: 45px 49px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+}
+.reviews__list-item__citation {
+    margin-top: auto;
+    text-align: end;
+}
+.reviews__list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.reviewer-name {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.review-text {
+    margin-bottom: 20px;
+}
+.reviews__button {
+    text-align: center;
+}
+.more-reviews {
+    background-color: var(--review-background-color);
+    padding: 30px 30px;
+
+    border-radius: 10px;
+    font-size: 20px;
+}

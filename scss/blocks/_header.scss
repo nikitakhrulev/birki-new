@@ -1,0 +1,25 @@
+.header {
+    background-color: #2d3b3c;
+    
+    a {
+        color: white;
+    }
+    a:hover {
+        color: var(--accent-color);
+        transition: 0.2s ease-in;
+    }
+}
+
+.header__row {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 24px;
+}
+.header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
