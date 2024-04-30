@@ -1,0 +1,20 @@
+.mobile-nav__wrapper {
+    position: absolute;
+    right: 0;
+    
+    z-index: 9;
+    left: 0;
+    background-color: #666666;
+}
+.mobile-nav__list {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+
+    font-size: 20px;
+}
+
+.mobile-sub-nav {
+    padding: 10px;
+    font-size: 17px;
+}

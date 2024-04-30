@@ -8,6 +8,15 @@ body {
     max-width: 1210px;
     padding: 0 15px;
     margin: 0 auto;
+
+    &--small-container {
+        display: none;
+        padding: 25px;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
 }
 .section-heading {
     font-weight: 700;
