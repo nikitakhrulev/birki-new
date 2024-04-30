@@ -955,6 +955,6 @@ select {
 
 @media screen and (max-width: 768px) {
   .contacts__grid-map {
-    width: 110%;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
