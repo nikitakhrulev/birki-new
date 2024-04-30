@@ -22,4 +22,17 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.mobile__menu-open {
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 }

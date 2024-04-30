@@ -44,7 +44,7 @@
             <div class="materials-select">
                 <label for="cars">Выберите материал:</label>
                 <select id="materials" name="materials">
-                <option value="-">------------------</option>
+                <option value="choose">выбрать</option>
                 <option value="satin">Сатин</option>
                 <option value="neylon">Нейлон</option>
                 <option value="silicon">Силикон</option>
@@ -53,13 +53,14 @@
                 <option value="cardboard">Картон</option>
                 </select>
             </div>
-
             <!-- calculators -->
             <!-- satin -->
             <div class="satin-calculator hidden calc">
                 <p>Сатин</p>
-                <label for="satin-width">Ширина бирки:</label>
+                <div class="width">
+                    <label for="satin-width">Ширина бирки:</label>
                 <select name="satin-width" id="satin-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -77,8 +78,10 @@
                     <option value="80">80 мм</option>
                     <option value="other">Другое</option>
                 </select>
+                </div>
                 <label for="satin-length">Длина бирки:</label>
                 <select name="satin-length" id="satin-length">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -122,12 +125,14 @@
                 </select>
                 <label for="satin-tape-color">Цвет ленты:</label>
                 <select name="satin-tape-color" id="satin-tape-color">
+                    <option value="choose">выбрать</option>
                     <option value="white">Белый</option>
                     <option value="black">Черный</option>
                     <option value="other">Цветной</option>
                 </select>
                 <label for="satin-print-color">Цвет печати:</label>
                 <select name="satin-print-color" id="satin-print-color">
+                    <option value="choose">выбрать</option>
                     <option value="white">Белый</option>
                     <option value="black">Черный</option>
                     <option value="other">Цветной</option>
@@ -143,6 +148,7 @@
                 <p>Нейлон</p>
                 <label for="neylon-width">Ширина бирки:</label>
                 <select name="neylon-width" id="neylon-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -162,6 +168,7 @@
                 </select>
                 <label for="neylon-length">Длина бирки:</label>
                 <select name="neylon-length" id="neylon-length">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -205,10 +212,12 @@
                 </select>
                 <label for="neylon-tape-color">Цвет ленты:</label>
                 <select name="neylon-tape-color" id="neylon-tape-color">
+                    <option value="choose">выбрать</option>
                     <option value="white">Белый</option>
                 </select>
                 <label for="neylon-print-color">Цвет печати:</label>
                 <select name="neylon-print-color" id="neylon-print-color">
+                    <option value="choose">выбрать</option>
                     <option value="black">Черный</option>
                     <option value="other">Цветной</option>
                 </select>
@@ -223,6 +232,7 @@
                 <p>Силикон</p>
                 <label for="silicon-width">Ширина бирки:</label>
                 <select name="silicon-width" id="silicon-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -242,6 +252,7 @@
                 </select>
                 <label for="silicon-length">Длина бирки:</label>
                 <select name="silicon-length" id="silicon-length">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -285,12 +296,14 @@
                 </select>
                 <label for="silicon-tape-color">Цвет ленты:</label>
                 <select name="silicon-tape-color" id="silicon-tape-color">
+                    <option value="choose">выбрать</option>
                     <option value="white">Белый</option>
                     <option value="black">Черный</option>
                     <option value="other">Цветной</option>
                 </select>
                 <label for="silicon-print-color">Цвет печати:</label>
                 <select name="silicon-print-color" id="silicon-print-color">
+                    <option value="choose">выбрать</option>
                     <option value="white">Белый</option>
                     <option value="black">Черный</option>
                     <option value="other">Цветной</option>
@@ -306,6 +319,7 @@
                 <p>Жаккард</p>
                 <label for="jakkard-width">Ширина бирки:</label>
                 <select name="jakkard-width" id="jakkard-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -329,6 +343,7 @@
                 </select>
                 <label for="jakkard-width">Длина бирки:</label>
                 <select name="jakkard-width" id="jakkard-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -361,6 +376,7 @@
                 <p>Хлопок</p>
                 <label for="cotton-width">Ширина бирки:</label>
                 <select name="cotton-width" id="cotton-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -384,6 +400,7 @@
                 </select>
                 <label for="cotton-width">Длина бирки:</label>
                 <select name="cotton-width" id="cotton-width">
+                    <option value="choose">выбрать</option>
                     <option value="10">10 мм</option>
                     <option value="15">15 мм</option>
                     <option value="20">20 мм</option>
@@ -416,6 +433,7 @@
                 <p>Картон</p>
                 <label for="carton-format">Выберите формат</label>
                 <select name="carton-format" id="carton-format">
+                    <option value="choose">выбрать</option>
                     <option value="90*50">90*50</option>
                     <option value="80*50">80*50</option>
                     <option value="90*54">90*54</option>
@@ -425,11 +443,13 @@
                 </select>
                 <label for="carton-print">Выберите тип печати:</label>
                 <select name="carton-print" id="carton-print">
+                    <option value="choose">выбрать</option>
                     <option value="4+0">4+0 (односторонняя)</option>
                     <option value="4+4">4+4 (двухсторонняя)</option>
                 </select>
                 <label for="carton-diametr">Диаметр отверстия (мм)</label>
                 <select name="carton-diametr" id="carton-diametr">
+                    <option value="choose">выбрать</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
