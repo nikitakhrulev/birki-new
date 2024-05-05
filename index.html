@@ -14,7 +14,7 @@
     <header class="header">
         <div class="container">
             <div class="header__row">
-                <a href="./index.html"><img src="./img/logo-header.png" alt="main-logo"></a>
+              <a href="./index.html"><p class="deliveryH__heading">BIRKA MARKET</p></a>
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__list-item"><a href="#!">О нас</a></li>
@@ -32,7 +32,7 @@
                             </ul>
                         </div>
                         </li>
-                        <li class="nav__list-item"><a href="#!">Доставка</a></li>
+                        <li class="nav__list-item"><a href="./pages/delivery.html">Доставка</a></li>
                         <li class="nav__list-item"><a href="./pages/calculator.html">Рассчитать заказ</a></li>
                     </ul>
                 </nav>
@@ -59,6 +59,8 @@
                           <article class="card swiper-slide">
                             <img src="./img/main-slider/photo_2024-04-25 21.42 1.jpg" alt=""></article>
                           <article class="card swiper-slide"><img src="./img/main-slider/photo_2024-04-25 21.44 1.png" alt=""></article>
+                          <article class="card swiper-slide"><img src="./img/main-menu/slider-img5.jpg" alt=""></article>
+                          <article class="card swiper-slide"><img src="./img/main-menu/slider-img6.jpg" alt=""></article>
                         </div>
                         <!-- If we need navigation buttons -->
                       </div>
@@ -106,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact hidden">
             <div class="container">
                 <div class="contact_us_green">
                     <div class="responsive-container-block big-container">
@@ -208,6 +210,59 @@
                   </div>
             </div>
         </section>
+        <section class="contactUs">
+          <div class="container">
+            <div class="contactUs-wrapper">
+              <div class="contactUs-text">
+                <p>чтобы получить консультацию или задать<br>
+                  интересующий вас вопрос, свяжитесь с нами через форму</p>
+              </div>
+              <div class="contactUs-showModalBtn">
+                <button id="contactUsBtn">связаться</button>
+              </div>
+              <p>или другим удобным способом</p>
+              <ul class="contactUs-socials-list">
+                <li class="contactUs-socials-list__item">
+                  <img src="./img/contactUs/Vector.svg" alt="">
+                </li>
+                <li class="contactUs-socials-list__item">
+                  <img src="./img/contactUs/Vector-1.svg" alt="">
+                </li>
+                <li class="contactUs-socials-list__item">
+                  <img src="./img/contactUs/icons8-email-50 1.svg" alt="">
+                </li>
+                <li class="contactUs-socials-list__item">
+                  <img src="./img/contactUs/icons8-phone-50 1.svg" alt="" class="contact-img">
+                </li>
+              </ul>
+            </div>
+            <div class="contactUsModal hidden" id="contactUsModal">
+              <div class="contactUs-modal__content">
+                <span class="contactUs-modal__close">&times;</span>
+                <div class="contactUs-form__wrapper">
+                  <div class="contactUs-modal__content-desc">
+                    <h3 class="section-heading contactUs-heading">Что нам нужно знать?</h3>
+                    <p>Напишите свои контактные данные и то, что вы хотите узнать</p>
+                  </div>
+                  <div class="contactUs-modal__content-form__wrapper">
+                    <form action="submit" class="contactUs-modal__content-form">
+                      <input type="text" placeholder="Имя">
+                      <input type="text" placeholder="Email">
+                      <input type="text" placeholder="Телефон">
+                      <!-- <input type="text" placeholder="Ваш вопрос"> -->
+                      <textarea name="" id="" cols="20" rows="5" placeholder="Ваш вопрос"></textarea>
+                    </form>
+                    <div class="contactUs-submit__btn">
+                      <button>Связаться с нами</button>
+                      <div class="button__border"></div>
+                    </div>
+                    
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
@@ -250,6 +305,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/slider.js"></script>
 </body>
 </html> 

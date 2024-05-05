@@ -1,0 +1,54 @@
+.contactUs {
+    background-color: #CCCCCC;
+    text-align: center;
+
+    padding: 80px;
+
+    font-size: 16px;
+}
+
+.contactUs-text {
+    max-width: 695px;
+
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+
+    
+}
+
+.contactUs-showModalBtn {
+    background-color: #FFFF99;
+    color: rgb(75, 73, 73);
+
+    max-width: 30%;
+    margin: 0 auto;
+
+    // border-radius: 10px;
+
+    margin-bottom: 20px;
+    :hover {
+        background-color: red;
+    }
+    button {
+        padding: 15px 20px;
+        width: 100%;
+        }
+        
+    }
+
+.contactUs-socials-list {
+    display: flex;
+    justify-content: center;
+
+    max-width: 30%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    padding: 20px 0;
+}
+
+.contactUs-wrapper {
+    position: relative;
+}
+

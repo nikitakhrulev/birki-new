@@ -116,8 +116,14 @@ body {
   font-size: 32px;
 }
 
+.deliveryH__heading {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
 .header {
-  background-color: #2d3b3c;
+  background-color: #333333;
   position: relative;
 }
 .header a {
@@ -791,7 +797,7 @@ body {
 }
 
 .footer {
-  background-color: #2d3b3c;
+  background-color: #333333;
   padding: 30px 0;
   color: white;
 }
@@ -944,7 +950,8 @@ select {
 .contacts__grid {
   padding: 20px 0;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
 }
 @media screen and (max-width: 768px) {
   .contacts__grid {
@@ -959,12 +966,12 @@ select {
 
 .contacts__grid-info__list {
   display: grid;
-  gap: 20px;
+  gap: 30px;
 }
 
 .contacts__grid-info__list-item {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -994,10 +1001,16 @@ select {
   font-size: 17px;
 }
 
+@media screen and (max-width: 768px) {
+  .mob-footer {
+    display: block;
+  }
+}
+
 .mob-footer_main {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .mob-footer__nav-list {
@@ -1029,4 +1042,206 @@ select {
 
 .footer-mob-copyright {
   margin-bottom: 5px;
+}
+
+.delivery-container {
+  padding-top: 59px;
+}
+
+.delivery__grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  gap: 100px;
+}
+@media screen and (max-width: 768px) {
+  .delivery__grid {
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+  }
+}
+
+.delivery__services-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .delivery__services-list {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.delivery__takeaway {
+  padding-bottom: 30px;
+}
+
+.delivery__moscow, .delivery__russia, .delivery-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.delivery-wrapper {
+  align-self: start;
+  margin-bottom: 30px;
+}
+
+.pick-up__heading {
+  margin-bottom: 40px;
+}
+
+.delivery-warning {
+  margin-bottom: 70px;
+}
+
+.swiper-silicon {
+  overflow: hidden;
+  height: 500px;
+  text-align: center;
+}
+
+.contactUs {
+  background-color: #CCCCCC;
+  text-align: center;
+  padding: 80px;
+  font-size: 16px;
+}
+
+.contactUs-text {
+  max-width: 695px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contactUs-showModalBtn {
+  background-color: #FFFF99;
+  color: rgb(75, 73, 73);
+  max-width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.contactUs-showModalBtn :hover {
+  background-color: red;
+}
+.contactUs-showModalBtn button {
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.contactUs-socials-list {
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.contactUs-wrapper {
+  position: relative;
+}
+
+.contactUsModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.contactUs-modal__content {
+  background-color: #fefefe;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 900px; /* Опционально: ограничиваем максимальную ширину */
+  animation: slideIn 0.9s ease-in forwards; /* Анимация для выезжания */
+}
+
+@keyframes slideIn {
+  from {
+    top: -50%;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+.contactUs-modal__close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+.contactUs-modal__close:hover {
+  color: #8e8c8c;
+  cursor: pointer;
+}
+
+.contactUs-form__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px;
+  gap: 30px;
+}
+
+.contactUs-modal__content-desc {
+  text-align: start;
+}
+
+.contactUs-modal__content-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contactUs-modal__content-form input,
+.contactUs-modal__content-form textarea {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.contactUs-modal__content-form input:focus,
+.contactUs-modal__content-form textarea:focus {
+  outline: none;
+}
+
+.contactUs-heading {
+  margin-bottom: 20px;
+  max-width: 220px;
+}
+
+.contactUs-submit__btn {
+  text-align: start;
+  margin-top: auto;
+}
+.contactUs-submit__btn button {
+  border: 2px solid grey;
+  padding: 10px 20px;
+}
+
+.contactUs-modal__content-form__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.contactUs-modal__content-form__wrapper form {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */

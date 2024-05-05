@@ -1,7 +1,8 @@
 .contacts__grid {
     padding: 20px 0;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
@@ -14,14 +15,16 @@
 
 .contacts__grid-info__list {
     display: grid;
-    gap: 20px;
+    gap: 30px;
 }
 
 .contacts__grid-info__list-item {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 
     align-items: center;
+
+    
 }
 .contacts__grid-map {
     @media screen and (max-width: 768px) {

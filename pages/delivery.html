@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1" /> 
-    <link rel="stylesheet" href="../scss/main.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка</title> 
+    <link href="https://db.onlinewebfonts.com/c/cae463692f633b35ed7a23be7d1bc90a?family=Five+Years+Later+Rotated" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./../scss/main.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__row">
-              <a href="./../index.html"><p class="deliveryH__heading">BIRKA MARKET</p></a>
+                <a href="./../index.html"><p class="deliveryH__heading">BIRKA MARKET</p></a>
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__list-item"><a href="#!">О нас</a></li>
-                        <li class="nav__list-item"><a href="#!">Контакты</a></li>
+                        <li class="nav__list-item"><a href="./contacts.html">Контакты</a></li>
                         <li class="nav__list-item">
                           <a href="#!">Продукция</a>
                           <div class="nav__list-sub-nav">
@@ -28,7 +29,7 @@
                             </ul>
                         </div>
                         </li>
-                        <li class="nav__list-item"><a href="./delivery.html">Доставка</a></li>
+                        <li class="nav__list-item"><a href="#!">Доставка</a></li>
                         <li class="nav__list-item"><a href="./calculator.html">Рассчитать заказ</a></li>
                     </ul>
                 </nav>
@@ -62,72 +63,69 @@
         </div>
     </header>
     <main class="main">
-        <div class="container contacts__container">
-            <h2 class="section-heading">Контакты</h2>
-            <div class="contacts__grid">
-              <div class="contacts__grid-map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af4838b36de2a1526e6fdb34e038ac4ca79a56b024cb9876dae142893c17f4fd7&amp;width=100%&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+        <div class="container delivery-container">
+            <h2 class="section-heading">Доставка</h2>
+            <div class="delivery__grid">
+              <div class="delivery__moscow">
+                <div><img src="./../img/delivery/page-icons/delivery_msk.svg" alt=""></div>
+                <div>
+                  <h3><b>Доставка по Москве</b></h3>
+                  <p>Доставка осуществляется в пределах МКАД,<br> 
+                    на условиях полной предоплаты </p>
+                </div>
               </div>
-            <div class="contacts__grid-info">
-              <ul class="contacts__grid-info__list">
-                <li class="contacts__grid-info__list-item">
-                  <div> 
-                    <img src="../img/icons/icons8-location-50.png" alt="">
-                  </div>
-                  <div>
-                    <p><b>Адрес офиса:</b></p>
-                    <p>г. Москва, Строительный пр-д, д. 2, стр. 1</p>
-                  </div>                
+              <div class="delivery__russia">
+                <div>
+                  <img src="./../img/delivery/page-icons/deivery_rus.svg" alt="">
+                </div>
+                <div>
+                  <h3><b>Доставка по России</b></h3>
+                  <p>Доставка в регионы России осуществляется<br> ведущими cлужбами экспресс-доставки</p>
+                </div>
+              </div>
+            </div>
+            <div class="delivery__services">
+              <ul class="delivery__services-list">
+                <li class="delivery__services-item">
+                  <img src="./../img/delivery/yandex-delivery 2.svg" alt="">
                 </li>
-                <li class="contacts__grid-info__list-item">
-                  <div>
-                    <img src="../img/icons/icons8-time-50.png" alt="">
-                  </div>                
-                  <div>
-                    <p><b>Часы работы:</b></p>
-                    <p>пн-пт 08:00 - 20:00</p>
-                  </div>               
+                <li class="delivery__services-item">
+                  <img src="./../img/delivery/dostavista-logo 2.svg" alt="">
                 </li>
-                <li class="contacts__grid-info__list-item">
-                  <div>
-                    <img src="../img/icons/icons8-phone-50.png" alt="">
-                  </div>
-                  <div>
-                    <p><b>Телефон:</b></p>
-                    <p>8 (495) 111-22-33</p>
-                  </div>                               
+                <li class="delivery__services-item">
+                  <img src="./../img/delivery/Vector.svg" alt="">
                 </li>
-                <li class="contacts__grid-info__list-item">
-                  <div>
-                    <img src="../img/icons/icons8-email-50.png" alt="">
-                  </div>
-                  <div>
-                    <p><b>Email:</b></p>
-                    <p>123@mail.ru</p>
-                  </div>
-                </li>
-                <li class="contacts__grid-info__list-item">
-                  <div>
-                    <img src="../img/icons/icons8-route-50.png" alt="">
-                  </div>
-                  <div> 
-                    <p><b>Как к нам добраться?</b></p>
-                    <p>Тут много текста Тутого текста Тут много текста Тут много текста </p>
-                  </div>
+                <li class="delivery__services-item">
+                  <img src="./../img/delivery/Clip path group.svg" alt="">
                 </li>
               </ul>
             </div>
+            <p class="delivery-warning">- Обратите внимание, что стоимости и сроки доставки определяются для каждого заказ индивидуально. <br> Перед отправкой с вами свяжется менеджер и сообщит об условиях доставки.</p>
+            
+            <h3 class="section-heading pick-up__heading"><b>Самовывоз</b></h3>
+            <div class="delivery__takeaway">
+              <div class="delivery-wrapper">
+                <div>
+                  <img src="./../img/delivery/page-icons/pickUp.svg"  alt="">
+                </div>
+                <div class="takeaway-info">
+                  <p>Вы можете самостоятельно получить ваш заказ в нашем офисе, по адресу:</p>
+                  <p><b>Москва, Строительный проезд 2с1</b></p>
+                </div>
+              </div>
+              <div>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af4838b36de2a1526e6fdb34e038ac4ca79a56b024cb9876dae142893c17f4fd7&amp;width=100%&amp;height=300px&amp;lang=ru_RU&amp;scroll=true"></script>
+              </div>
             </div>
-        </div>
+          </div>
     </main>
     <footer class="footer">
         <div class="container">
           <div class="footer__grid">
             <div class="footer__grid-bio__wrapper">
               <div class="footer__grid-bio">
-                <img src="../img/logo-footer1.png" alt="main-logo">
+                <a href="./../index.html"><p class="deliveryH__heading">BIRKA MARKET</p></a>
                 <div class="footer__req">
-                  <h4>Изготовление бирок<br> на заказ</h4>
                   <p>ИП Федотов А.В.</p>
                   <p>ИНН 771412910075</p>
                   <p>ОГРНИП 323774600620762</p>
@@ -171,7 +169,7 @@
                 <li class="mob-footer__nav-item"><a href="#!" class="mob-footer__nav-link">Контакты</a></li>
               </ul>
               <div class="mob-footer__main-img">
-                <img src="./../img/logo-footer-mob.png" alt="">
+                <a href="./../index.html"><p class="deliveryH__heading">BIRKA<br>MARKET</p></a>
               </div>
             </div>
             <div class="mob-footer__production">
@@ -202,5 +200,4 @@
     </footer>
     <script src="./../js/main.js"></script>
 </body>
-    
 </html>

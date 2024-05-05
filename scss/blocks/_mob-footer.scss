@@ -1,7 +1,13 @@
+.mob-footer {
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
 .mob-footer_main {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .mob-footer__nav-list {
     font-size: 20px;
