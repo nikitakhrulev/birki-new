@@ -1,0 +1,35 @@
+.menu__first-column, .menu__second-column {
+    display: flex;
+    flex-direction: column;
+
+    gap: 70px;
+}
+
+.menu__columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__second-column {
+    align-items: flex-end;
+    z-index: 9;
+
+}
+.menu__heading {
+    margin-bottom: 30px;
+}
+
+.menu {
+    padding: 60px;
+
+   position: relative;
+   background-image: url(./../../img/menu/back.png);
+}
+// .menu__pattern {
+//     position: absolute;
+//     background-image: url(./../../img/menu/pattern.png);
+// }
+.menu__item-heading {
+    padding-top: 12px;
+    font-size: 35px;
+    font-weight: 500;
+}

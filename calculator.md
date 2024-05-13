@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,6 +41,7 @@
     </header>
     <main class="main" style="padding: 100px 0; text-align: center">
         <div class="container">
+            <h2 class="section-heading">Рассчитать заказ</h2>
             <div class="materials-select">
                 <label for="cars">Выберите материал:</label>
                 <select id="materials" name="materials">
@@ -52,99 +53,112 @@
                 <option value="jakkard">Жаккард</option>
                 <option value="cardboard">Картон</option>
                 </select>
-            </div>
+            </div> -->
             <!-- calculators -->
             <!-- satin -->
-            <div class="satin-calculator hidden calc">
-                <p>Сатин</p>
-                <div class="width">
-                    <label for="satin-width">Ширина бирки:</label>
-                <select name="satin-width" id="satin-width">
-                    <option value="choose">выбрать</option>
-                    <option value="10">10 мм</option>
-                    <option value="15">15 мм</option>
-                    <option value="20">20 мм</option>
-                    <option value="25">25 мм</option>
-                    <option value="30">30 мм</option>
-                    <option value="35">35 мм</option>
-                    <option value="40">40 мм</option>
-                    <option value="45">45 мм</option>
-                    <option value="50">50 мм</option>
-                    <option value="55">55 мм</option>
-                    <option value="60">60 мм</option>
-                    <option value="65">65 мм</option>
-                    <option value="70">70 мм</option>
-                    <option value="75">75 мм</option>
-                    <option value="80">80 мм</option>
-                    <option value="other">Другое</option>
-                </select>
+            <!-- <div class="satin-calculator hidden calc">
+                <p class="material-heading">Сатин</p>
+                <div class="calculator-selects">
+                    <div>
+                        <div class="calculator-width">
+                            <label for="satin-width">Ширина бирки:</label>
+                            <select name="satin-width" id="satin-width">
+                            <option value="choose">выбрать</option>
+                            <option value="10">10 мм</option>
+                            <option value="15">15 мм</option>
+                            <option value="20">20 мм</option>
+                            <option value="25">25 мм</option>
+                            <option value="30">30 мм</option>
+                            <option value="35">35 мм</option>
+                            <option value="40">40 мм</option>
+                            <option value="45">45 мм</option>
+                            <option value="50">50 мм</option>
+                            <option value="55">55 мм</option>
+                            <option value="60">60 мм</option>
+                            <option value="65">65 мм</option>
+                            <option value="70">70 мм</option>
+                            <option value="75">75 мм</option>
+                            <option value="80">80 мм</option>
+                            <option value="other">Другое</option>
+                        </select>
+                        </div>
+                        <div class="calculator-length">
+                            <label for="satin-length">Длина бирки:</label>
+                        <select name="satin-length" id="satin-length">
+                            <option value="choose">выбрать</option>
+                            <option value="10">10 мм</option>
+                            <option value="15">15 мм</option>
+                            <option value="20">20 мм</option>
+                            <option value="25">25 мм</option>
+                            <option value="30">30 мм</option>
+                            <option value="35">35 мм</option>
+                            <option value="40">40 мм</option>
+                            <option value="45">45 мм</option>
+                            <option value="50">50 мм</option>
+                            <option value="55">55 мм</option>
+                            <option value="60">60 мм</option>
+                            <option value="65">65 мм</option>
+                            <option value="70">70 мм</option>
+                            <option value="75">75 мм</option>
+                            <option value="80">80 мм</option>
+                            <option value="85">85 мм</option>
+                            <option value="90">90 мм</option>
+                            <option value="95">95 мм</option>
+                            <option value="100">100 мм</option>
+                            <option value="105">105 мм</option>
+                            <option value="110">110 мм</option>
+                            <option value="115">115 мм</option>
+                            <option value="120">120 мм</option>
+                            <option value="125">125 мм</option>
+                            <option value="130">130 мм</option>
+                            <option value="135">135 мм</option>
+                            <option value="140">140 мм</option>
+                            <option value="145">145 мм</option>
+                            <option value="150">150 мм</option>
+                            <option value="155">155 мм</option>
+                            <option value="160">160 мм</option>
+                            <option value="165">165 мм</option>
+                            <option value="170">170 мм</option>
+                            <option value="175">175 мм</option>
+                            <option value="180">180 мм</option>
+                            <option value="185">185 мм</option>
+                            <option value="190">190 мм</option>
+                            <option value="195">195 мм</option>
+                            <option value="200">200 мм</option>
+                            <option value="other">Другое</option>
+                        </select>
+                        </div>
+                        <div class="calculator-tape-color">
+                            <label for="satin-tape-color">Цвет ленты:</label>
+                        <select name="satin-tape-color" id="satin-tape-color">
+                            <option value="choose">выбрать</option>
+                            <option value="white">Белый</option>
+                            <option value="black">Черный</option>
+                            <option value="other">Цветной</option>
+                        </select>
+                        </div>
+                        <div class="calculator-print-color">
+                            <label for="satin-print-color">Цвет печати:</label>
+                        <select name="satin-print-color" id="satin-print-color">
+                            <option value="choose">выбрать</option>
+                            <option value="white">Белый</option>
+                            <option value="black">Черный</option>
+                            <option value="other">Цветной</option>
+                        </select>
+                        </div>
+                        <div class="satin-quantity-slider">
+                            <label for="satin-quantity">Choose quantity:</label>
+                            <input type="range" name="satin-quantity" id="satin-quantity" min="300" max="20000">
+                            <p>Selected quantity: <span id="satinQuantityValue">50</span></p> 
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./../img/main-menu/" alt="">
+                    </div>
                 </div>
-                <label for="satin-length">Длина бирки:</label>
-                <select name="satin-length" id="satin-length">
-                    <option value="choose">выбрать</option>
-                    <option value="10">10 мм</option>
-                    <option value="15">15 мм</option>
-                    <option value="20">20 мм</option>
-                    <option value="25">25 мм</option>
-                    <option value="30">30 мм</option>
-                    <option value="35">35 мм</option>
-                    <option value="40">40 мм</option>
-                    <option value="45">45 мм</option>
-                    <option value="50">50 мм</option>
-                    <option value="55">55 мм</option>
-                    <option value="60">60 мм</option>
-                    <option value="65">65 мм</option>
-                    <option value="70">70 мм</option>
-                    <option value="75">75 мм</option>
-                    <option value="80">80 мм</option>
-                    <option value="85">85 мм</option>
-                    <option value="90">90 мм</option>
-                    <option value="95">95 мм</option>
-                    <option value="100">100 мм</option>
-                    <option value="105">105 мм</option>
-                    <option value="110">110 мм</option>
-                    <option value="115">115 мм</option>
-                    <option value="120">120 мм</option>
-                    <option value="125">125 мм</option>
-                    <option value="130">130 мм</option>
-                    <option value="135">135 мм</option>
-                    <option value="140">140 мм</option>
-                    <option value="145">145 мм</option>
-                    <option value="150">150 мм</option>
-                    <option value="155">155 мм</option>
-                    <option value="160">160 мм</option>
-                    <option value="165">165 мм</option>
-                    <option value="170">170 мм</option>
-                    <option value="175">175 мм</option>
-                    <option value="180">180 мм</option>
-                    <option value="185">185 мм</option>
-                    <option value="190">190 мм</option>
-                    <option value="195">195 мм</option>
-                    <option value="200">200 мм</option>
-                    <option value="other">Другое</option>
-                </select>
-                <label for="satin-tape-color">Цвет ленты:</label>
-                <select name="satin-tape-color" id="satin-tape-color">
-                    <option value="choose">выбрать</option>
-                    <option value="white">Белый</option>
-                    <option value="black">Черный</option>
-                    <option value="other">Цветной</option>
-                </select>
-                <label for="satin-print-color">Цвет печати:</label>
-                <select name="satin-print-color" id="satin-print-color">
-                    <option value="choose">выбрать</option>
-                    <option value="white">Белый</option>
-                    <option value="black">Черный</option>
-                    <option value="other">Цветной</option>
-                </select>
-                <div class="satin-quantity-slider">
-                    <label for="satin-quantity">Choose quantity:</label>
-                    <input type="range" name="satin-quantity" id="satin-quantity" min="300" max="20000">
-                    <p>Selected quantity: <span id="satinQuantityValue">50</span></p> 
-                </div>
-            </div>
+            </div> -->
             <!-- neylon -->
-            <div class="neylon-calculator hidden calc">
+            <!-- <div class="neylon-calculator hidden calc"> -->
                 <p>Нейлон</p>
                 <label for="neylon-width">Ширина бирки:</label>
                 <select name="neylon-width" id="neylon-width">
@@ -226,9 +240,9 @@
                     <input type="range" name="neylon-quantity" id="neylon-quantity" min="300" max="20000">
                     <p>Selected quantity: <span id="neylonQuantityValue">50</span></p> 
                 </div>
-            </div>
+            <!-- </div> -->
             <!-- silicon -->
-            <div class="silicon-calculator hidden calc">
+            <!-- <div class="silicon-calculator hidden calc"> -->
                 <p>Силикон</p>
                 <label for="silicon-width">Ширина бирки:</label>
                 <select name="silicon-width" id="silicon-width">
@@ -313,9 +327,9 @@
                     <input type="range" name="silicon-quantity" id="silicon-quantity" min="300" max="20000">
                     <p>Selected quantity: <span id="siliconQuantityValue">50</span></p> 
                 </div>
-            </div>
+            <!-- </div> -->
             <!-- jakkard -->
-            <div class="jakkard-calculator hidden calc">
+            <!-- <div class="jakkard-calculator hidden calc">
                 <p>Жаккард</p>
                 <label for="jakkard-width">Ширина бирки:</label>
                 <select name="jakkard-width" id="jakkard-width">
@@ -369,10 +383,10 @@
                     <label for="jakkard-quantity">Choose quantity:</label>
                     <input type="range" name="jakkard-quantity" id="jakkard-quantity" min="300" max="20000">
                     <p>Selected quantity: <span id="jakkardQuantityValue">50</span></p> 
-                </div>
-            </div>
+                </div> -->
+            <!-- </div> -->
             <!-- cotton -->
-            <div class="cotton-calculator hidden calc">
+            <!-- <div class="cotton-calculator hidden calc"> -->
                 <p>Хлопок</p>
                 <label for="cotton-width">Ширина бирки:</label>
                 <select name="cotton-width" id="cotton-width">
@@ -427,9 +441,9 @@
                     <input type="range" name="cotton-quantity" id="cotton-quantity" min="300" max="20000">
                     <p>Selected quantity: <span id="cottonQuantityValue">50</span></p> 
                 </div>
-            </div>
+            <!-- </div> -->
             <!-- cardboard -->
-            <div class="cardboard-calculator hidden calc">
+            <!-- <div class="cardboard-calculator hidden calc">
                 <p>Картон</p>
                 <label for="carton-format">Выберите формат</label>
                 <select name="carton-format" id="carton-format">
@@ -470,8 +484,8 @@
                   <p>ИНН 771412910075</p>
                   <p>ОГРНИП 323774600620762</p>
                 </div>
-              </div>
-              <p class="copyright">© Birka Market 2024</p>
+              </div> -->
+              <!-- <p class="copyright">© Birka Market 2024</p>
               <a class="policy" href="#!">Политика конфиденциальности</a>
             </div>
             <ul class="footer__products-list">
@@ -500,4 +514,4 @@
     </footer>
     <script src="../js/calculator.js"></script>
 </body>
-</html>
+</html> -->

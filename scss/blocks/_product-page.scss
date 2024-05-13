@@ -1,0 +1,21 @@
+.benefits {
+    padding: 90px 0;
+}
+
+.benefits__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.benefits__list-item {
+    width: 30%;
+}
+
+.works {
+    padding: 70px 0;
+}
+.our-works-heading {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

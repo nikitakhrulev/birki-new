@@ -32,3 +32,29 @@ closeContactUsModal.addEventListener('click', closeModal)
 function closeModal() {
     contactUsModal.classList.add('hidden');
 }
+
+
+
+
+// swipers
+
+const swiper = new Swiper('.swiper-silicon', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });

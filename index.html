@@ -24,7 +24,7 @@
                           <div class="nav__list-sub-nav">
                             <ul class="sub-nav">
                                 <li class="sub-nav__item"><a href="./pages/satin.html" class="sub-nav__link">Сатин</a></li>
-                                <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Силикон</a></li>
+                                <li class="sub-nav__item"><a href="./pages/silicon.html" class="sub-nav__link">Силикон</a></li>
                                 <li class="sub-nav__item"><a href="./pages/neylon.html" class="sub-nav__link">Нейлон</a></li>
                                 <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Жаккард</a></li>
                                 <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Хлопок</a></li>
@@ -47,26 +47,57 @@
         </div>
     </header>
     <main class="main">
-        <div class="slider__container">
-            <section class="hero">
-                <div class="hero__slider">
-                    <div class="swiper-hero">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <article class="card swiper-slide"><img src="./img/Image.png" alt=""></article>
-                          <article class="card swiper-slide"><img src="./img/Image.png" alt=""></article>
-                          <article class="card swiper-slide">
-                            <img src="./img/main-slider/photo_2024-04-25 21.42 1.jpg" alt=""></article>
-                          <article class="card swiper-slide"><img src="./img/main-slider/photo_2024-04-25 21.44 1.png" alt=""></article>
-                          <article class="card swiper-slide"><img src="./img/main-menu/slider-img5.jpg" alt=""></article>
-                          <article class="card swiper-slide"><img src="./img/main-menu/slider-img6.jpg" alt=""></article>
-                        </div>
-                        <!-- If we need navigation buttons -->
-                      </div>
-                </div>
-            </section>
+      <div class="hero__wrapper">
+        <div class="container">
+          <section class="hero">
+            <div class="hero__content">
+              <h1 class="hero__heading"><span>Birka</span> <br>Market</h1>
+              <p>????????????????</p>
+              <p>????????????????</p>
+              <p>????????????????</p>
+              <p>????????????????</p>
+              <p>????????????????</p>
+            </div>
+            <div class="hero__image"><img src="./img/main-slider/hero-img.jpg" alt=""></div>
+        </section>
         </div>
+      </div>
+      <section class="menu">
+        <div class="container">
+          <h2 class="section-heading menu__heading">Каталог</h2>
+          <div class="menu__columns-wrapper">
+            <div class="menu__first-column">
+              <div class="menu__left-first-item">
+                <img src="./img/menu/menu-jakkard.jpg" alt="">
+                <p class="menu__item-heading">Жаккард</p>
+              </div>
+              <div class="menu__left-second-item">
+                <img src="./img/menu/menu-silicon.jpg" alt="">
+                <p class="menu__item-heading">Силикон</p>
+              </div>
+              <div>
+                <img src="./img/menu/try.jpg" alt="">
+                <p class="menu__item-heading">Сатин</p>
+              </div>
+            </div>
+            <div class="menu__second-column">
+              <div class="menu__right-first-item">
+                <img src="./img/menu/menu-karton.jpg" alt="">
+                <p class="menu__item-heading">Картон</p>
+              </div>
+              <div class="menu__right-second-item">
+                <img src="./img/menu/try.jpg" alt="">
+                <p class="menu__item-heading">Сатин</p>
+              </div>
+              <div>
+                <img src="./img/menu/try.jpg" alt="">
+                <p class="menu__item-heading">Сатин</p>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <div class="menu__pattern"></div>
+      </section>
         <section class="reviews">
             <div class="container">
                 <ul class="reviews__list">
@@ -251,11 +282,11 @@
                       <input type="text" placeholder="Телефон">
                       <!-- <input type="text" placeholder="Ваш вопрос"> -->
                       <textarea name="" id="" cols="20" rows="5" placeholder="Ваш вопрос"></textarea>
+                      <div class="contactUs-submit__btn">
+                        <button>Связаться с нами</button>
+                        <div class="button__border"></div>
+                      </div>
                     </form>
-                    <div class="contactUs-submit__btn">
-                      <button>Связаться с нами</button>
-                      <div class="button__border"></div>
-                    </div>
                     
                   </div>
                 </div>
@@ -269,7 +300,7 @@
           <div class="footer__grid">
             <div class="footer__grid-bio__wrapper">
               <div class="footer__grid-bio">
-                <img src="./img/logo-footer1.png" alt="main-logo">
+                <a href="./../index.html"><p class="deliveryH__heading">BIRKA<br>MARKET</p></a>
                 <div class="footer__req">
                   <h4>Изготовление бирок<br> на заказ</h4>
                   <p>ИП Федотов А.В.</p>
@@ -277,8 +308,6 @@
                   <p>ОГРНИП 323774600620762</p>
                 </div>
               </div>
-              <p class="copyright">© Birka Market 2024</p>
-              <a class="policy" href="#!">Политика конфиденциальности</a>
             </div>
             <ul class="footer__products-list">
               <h4>Продукция</h4>
@@ -302,6 +331,10 @@
               <li class="footer__contacts-list__item">8 (999) 999-99-99<br>123@gmail.com</li>
             </ul>
           </div>
+        </div>
+        <div class="footer__lower-footer">
+          <p class="copyright">© Birka Market 2024</p>
+          <a class="policy" href="#!">Политика конфиденциальности</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
