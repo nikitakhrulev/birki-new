@@ -1,10 +1,17 @@
 .contactUs {
-    background-color: #CCCCCC;
+    // background-color: #CCCCCC;
     text-align: center;
 
     padding: 80px;
 
     font-size: 16px;
+
+
+    color: #48bfcd
+    ;
+}
+.contactUs__heading {
+    margin-bottom: 30px;
 }
 
 .contactUs-text {
@@ -18,21 +25,28 @@
 }
 
 .contactUs-showModalBtn {
-    background-color: #FFFF99;
-    color: rgb(75, 73, 73);
-
-    max-width: 30%;
+    background-color:#48bfcd
+    ;
+    color: white;
+    display: inline-block;
+    // max-width: 30%;
     margin: 0 auto;
-
+    position: relative;
+    z-index: 9;
     // border-radius: 10px;
 
     margin-bottom: 20px;
-    :hover {
-        background-color: red;
-    }
+    // :hover {
+    //     background-color: red;
+    // }
     button {
         padding: 15px 20px;
         width: 100%;
+
+        display: block;
+
+        position: relative;
+        z-index: 9;
         }
         
     }
@@ -50,5 +64,49 @@
 
 .contactUs-wrapper {
     position: relative;
-}
 
+    border: 2px solid #48bfcd;
+    padding: 50px;
+    z-index: 9;
+}
+.contactUs__additional-border1 {
+    border-bottom: 2px solid #48bfcd;
+    border-left: 2px solid #48bfcd;
+    bottom: -6px;
+    height: 100%;
+    left: -6px;
+    position: absolute;
+    width: 100%;
+    // z-index: 1;
+}
+.contactUs__additional-border2 {
+    border-bottom: 2px solid #48bfcd;
+    border-left: 2px solid #48bfcd;
+    bottom: -10px;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    width: 100%;
+    // z-index: 1;
+}
+.contactUs__additional-button-border1 {
+    border-bottom: 1px solid #48bfcd;
+    border-left: 1px solid #48bfcd;
+    bottom: -4px;
+    height: 100%;
+    left: -4px;
+    position: absolute;
+    width: 100%;
+
+    z-index: 1;
+}
+.contactUs__additional-button-border2 {
+    border-bottom: 1px solid #48bfcd;
+    border-left: 1px solid #48bfcd;
+    bottom: -8px;
+    height: 100%;
+    left: -8px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}

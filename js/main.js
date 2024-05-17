@@ -49,8 +49,8 @@ const swiper = new Swiper('.swiper-silicon', {
   
     // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '#sliderNext',
+      prevEl: '#sliderPrev',
     },
   
     // And if we need scrollbar
